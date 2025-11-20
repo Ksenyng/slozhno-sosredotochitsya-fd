@@ -17,33 +17,30 @@
   --main-font-size: 18px;
   --title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --main-line-height: 23.4px;
-  --main-letter-spacing: 0%;
-  --margin-menu: 65px;
   --margin-section: 50px;
-  --margin-top-header-title: 65px;
-  --margin-bottom-header-title: 55px;
   --main-vertical-padding: 40px;
   --font-weight-normal: normal;
   --font-weight-bold: bold;
+  --header-gap: 55px;
+  --margin-top-theme-menu: 55px;
 }
 
 @media (width >= 768px) {
   :root {
     --main-padding: 20px;
-    --margin-menu: 172px;
     --margin-section: 80px;
-    --margin-top-header-title: 67px;
-    --margin-bottom-header-title: 55px;
     --main-vertical-padding: 60px;
     --title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --column-size: 236px;
+    --header-gap: 73px;
+    --margin-top-theme-menu: 163px;
   }
 }
 
 @media (width >= 1024px) {
   :root {
-    --margin-menu: 0px;
-    --margin-top-header-title: 215px;
-    --margin-bottom-header-title: 85px;
-    --title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --column-size: 314.96px;
+    --header-gap: 85px;
+    --margin-top-theme-menu: 0px;
   }
 }
